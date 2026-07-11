@@ -1,5 +1,5 @@
 {
-  "name": "@APPNAME/web",
+  "name": "@orb-cascade-neon/web",
   "private": true,
   "type": "module",
   "scripts": {
