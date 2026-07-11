@@ -1,14 +1,14 @@
 {
-  "name": "orb-cascade-neon",
+  "name": "APPNAME",
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "engines": { "node": ">=22" },
   "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
   "scripts": {
-    "dev": "pnpm --filter @orb-cascade-neon/web dev",
-    "build": "pnpm --filter @orb-cascade-neon/web build",
-    "preview": "pnpm --filter @orb-cascade-neon/web preview",
-    "typecheck": "pnpm --filter @orb-cascade-neon/web exec tsc -b",
-    "test": "pnpm --filter @orb-cascade-neon/web test"
+    "dev": "pnpm --filter @APPNAME/web dev",
+    "build": "pnpm --filter @APPNAME/web build",
+    "preview": "pnpm --filter @APPNAME/web preview",
+    "typecheck": "pnpm --filter @APPNAME/web exec tsc -b",
+    "test": "pnpm --filter @APPNAME/web test"
   }
 }
